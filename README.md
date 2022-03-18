@@ -117,5 +117,6 @@ Feedstock Maintainers
 =====================
 
 * [@betolink](https://github.com/betolink/)
+* [@jhkennedy](https://github.com/jhkennedy/)
 * [@rsignell-usgs](https://github.com/rsignell-usgs/)
 
