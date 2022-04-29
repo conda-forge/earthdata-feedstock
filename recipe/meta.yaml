@@ -1,5 +1,5 @@
 {% set name = "earthdata" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/earthdata-{{ version }}.tar.gz
-  sha256: db547fc97dd8e569c86c46a65ee7e036c4484f2f61cd53b9de9cb329f00b953a
+  sha256: 403701e939897f1f5cc0bf020bb2b1e128a1457ec779957a528a91d129bd19be
 
 build:
   number: 0
@@ -18,16 +18,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7,<4.0
+    - python >=3.8,<4.0
     - poetry >=0.12
   run:
     - pqdm >=0.1.0,<0.2.0
     - pydantic >=1.5.1,<2.0.0
-    - python >=3.6,<4.0
-    - python-benedict >=0.24.2,<0.26
-    - python-cmr >=0.4.1,<0.5.0
+    - python >=3.8,<4.0
+    - python-benedict >=0.25,<0.26
+    - python-cmr >=0.4.1,<0.8.0
     - requests >=2.26.0,<3.0.0
     - s3fs >=2021.8.1,<2023.0.0
+    - tinynetrc >=1.3, <=2.0
 
 test:
   imports:
@@ -45,5 +46,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - jhkennedy
     - betolink
     - rsignell-usgs
