@@ -25,7 +25,7 @@ requirements:
     - pydantic >=1.5.1,<2.0.0
     - python >=3.8,<4.0
     - python-benedict >=0.25,<0.26
-    - python-cmr >=0.4.1,<0.8.0
+    - python-cmr >=0.7,<0.8
     - requests >=2.26.0,<3.0.0
     - s3fs >=2021.8.1,<2023.0.0
     - tinynetrc >=1.0, <=2.0
