@@ -21,7 +21,6 @@ requirements:
     - python >=3.8,<4.0
     - poetry >=0.12
   run:
-
     - python >=3.8,<4.0
     - python-cmr >=0.7
     - python-benedict >=0.25
