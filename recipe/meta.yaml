@@ -1,5 +1,5 @@
 {% set name = "earthdata" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/earthdata-{{ version }}.tar.gz
-  sha256: 23c8d2eabc508300a0e3a36749d52178685953a7e2fc2f209bd221823adcd0cf
+  sha256: f31c9b778860f0ab16850a97be3265b6abe8035db86dbffcf181e0a164da20cf
 
 build:
   number: 0
