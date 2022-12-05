@@ -1,5 +1,5 @@
-{% set name = "earthdata" %}
-{% set version = "0.4.1" %}
+{% set name = "earthaccess" %}
+{% set version = "0.4.5" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/earthdata-{{ version }}.tar.gz
-  sha256: f31c9b778860f0ab16850a97be3265b6abe8035db86dbffcf181e0a164da20cf
+  url: https://pypi.io/packages/source/e/{{ name }}/earthaccess-{{ version }}.tar.gz
+  sha256: 5ddd90b221f63bbbd01faf560922b8bf3cc3d3bc3edeec99c0b5266fb5387943
 
 build:
   number: 0
@@ -32,18 +32,19 @@ requirements:
     - aiofiles >=0.8.0
     - aiohttp >=3.8.0
     - multimethod >=1.8
+    - python-magic >=0.4
 
 test:
   imports:
-    - earthdata
+    - earthaccess
   commands:
     - pip check
   requires:
     - pip
 
 about:
-  home: https://pypi.org/project/earthdata/
-  summary: Client library for NASA Earthdata APIs
+  home: https://pypi.org/project/earthaccess/
+  summary: Client Library for NASA Earthdata APIs
   license: MIT
   license_file: LICENSE
 
