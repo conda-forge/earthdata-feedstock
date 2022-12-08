@@ -1,5 +1,5 @@
 {% set name = "earthaccess" %}
-{% set version = "0.4.5" %}
+{% set version = "0.4.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/e/{{ name }}/earthaccess-{{ version }}.tar.gz
-  sha256: 5ddd90b221f63bbbd01faf560922b8bf3cc3d3bc3edeec99c0b5266fb5387943
+  sha256: e91e2d2976488179bdcc96757f9100bca524f782116c327873ed2303fc402d74
 
 build:
   number: 0
