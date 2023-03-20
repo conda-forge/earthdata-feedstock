@@ -1,5 +1,5 @@
 {% set name = "earthaccess" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/e/{{ name }}/earthaccess-{{ version }}.tar.gz
-  sha256: a71bdc6f722c4131c8525cde8b147011776260b274419ca38174debfa7f461a2
+  sha256: 9b03d9dd301fef2873d7bb6cc9eb9d96fad953e460bac1de8bcc4bde5804196b
 
 build:
   number: 0
@@ -29,10 +29,7 @@ requirements:
     - s3fs >=2021.11, <2024
     - fsspec >=2022.1
     - tinynetrc >=1.3.1
-    - aiofiles >=0.8.0
-    - aiohttp >=3.8.0
     - multimethod >=1.8
-    - python-magic >=0.4
 
 test:
   imports:
