@@ -21,16 +21,17 @@ requirements:
   host:
     - pip
     - python >=3.8,<4.0
-    - poetry >=0.12
+    - poetry-core >=1.0.0
   run:
     - python >=3.8,<4.0
-    - python-cmr >=0.7
+    - python-cmr >=0.9.0
     - pqdm >=0.1
     - requests >=2.26
-    - s3fs >=2021.11, <2024
-    - fsspec >=2022.1
+    - s3fs >=2022.11, <2024
+    - fsspec >=2022.11
     - tinynetrc >=1.3.1
     - multimethod >=1.8
+    - python-dateutil >=2.8.2
 
 test:
   imports:
