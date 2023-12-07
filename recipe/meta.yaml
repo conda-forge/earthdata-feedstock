@@ -1,6 +1,6 @@
 {% set name = "earthaccess" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "2f7c2b0748e940f8db41ee6de56354657ff2c3fa1702cd6d164151c079af27e7" %}
+{% set version = "0.8.2" %}
+{% set sha256 = "a8823890cd4ddebb1afd79569edfd1d3959133032af53290ae289e5310583753" %}
 {% set build_number = 0 %}
 
 
@@ -21,16 +21,17 @@ requirements:
   host:
     - pip
     - python >=3.8,<4.0
-    - poetry >=0.12
+    - poetry-core >=1.0.0
   run:
     - python >=3.8,<4.0
-    - python-cmr >=0.7
+    - python-cmr >=0.9.0
     - pqdm >=0.1
     - requests >=2.26
-    - s3fs >=2021.11, <2024
-    - fsspec >=2022.1
+    - s3fs >=2022.11, <2024
+    - fsspec >=2022.11
     - tinynetrc >=1.3.1
     - multimethod >=1.8
+    - python-dateutil >=2.8.2
 
 test:
   imports:
