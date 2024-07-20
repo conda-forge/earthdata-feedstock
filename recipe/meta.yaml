@@ -34,6 +34,10 @@ requirements:
     - python-dateutil >=2.8.2
     - importlib-resources >=6.3.2
     - typing_extensions >=4.10.0
+    - numpy >=1.24.0  # Default numpy version
+      {{% if python < "3.12" %}}
+    - numpy >=1.26.0  # numpy version for python >=3.12
+      {{% if python >= "3.12" %}}
 
 test:
   imports:
