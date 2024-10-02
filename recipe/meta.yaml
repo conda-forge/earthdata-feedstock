@@ -21,7 +21,7 @@ requirements:
   host:
     - pip
     - python >=3.9,<4.0
-    - poetry-core >=1.0.0
+    - hatchling >=1.25.0
   run:
     - python >=3.9,<4.0
     - python-cmr >=0.10.0
