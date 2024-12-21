@@ -1,7 +1,7 @@
 {% set name = "earthaccess" %}
 {% set version = "0.12.0" %}
 {% set sha256 = "8634584c9d501e9e1f105dc18c609d374cc79d2bbe0824717380da65ac94ce40" %}
-{% set build_number = 0 %}
+{% set build_number = 1 %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/e/{{ name }}/earthaccess-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/e/{{ name }}/earthaccess-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -20,10 +20,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9,<4.0
+    - python {{ python_min }}
     - hatchling >=1.25.0
   run:
-    - python >=3.9,<4.0
+    - python >={{ python_min }},<4.0
     - python-cmr >=0.10.0
     - pqdm >=0.1
     - requests >=2.26
@@ -43,6 +43,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/earthaccess/
