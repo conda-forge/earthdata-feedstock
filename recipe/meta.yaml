@@ -2,7 +2,7 @@
 {% set version = "0.12.0" %}
 {% set sha256 = "8634584c9d501e9e1f105dc18c609d374cc79d2bbe0824717380da65ac94ce40" %}
 {% set build_number = 1 %}
-
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
