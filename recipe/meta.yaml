@@ -1,7 +1,7 @@
 {% set name = "earthaccess" %}
-{% set version = "0.12.0" %}
-{% set sha256 = "8634584c9d501e9e1f105dc18c609d374cc79d2bbe0824717380da65ac94ce40" %}
-{% set build_number = 1 %}
+{% set version = "0.13.0" %}
+{% set sha256 = "40cf494b55afee953c50d41dfd232351b014112e382d2edd4f2583078a3f19d0" %}
+{% set build_number = 0 %}
 {% set python_min = "3.10" %}
 
 package:
@@ -35,6 +35,9 @@ requirements:
     - importlib-resources >=6.3.2
     - typing_extensions >=4.10.0
     - numpy >=1.24.0 # TODO: since kerchunk is a transient dep we don't need to enforce 3.12 compatible version for numpy
+    - kerchunk >=0.2.6
+    - zarr >=2.12.0, <3.0.0a
+    - virtualizarr >=1.2.0
 
 test:
   imports:
