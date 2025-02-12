@@ -1,6 +1,6 @@
 {% set name = "earthaccess" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "40cf494b55afee953c50d41dfd232351b014112e382d2edd4f2583078a3f19d0" %}
+{% set version = "0.14.0" %}
+{% set sha256 = "8cc0a07ac86077728396f417ae4a137293f78c6b5e30f9d2b97d362151f093a3" %}
 {% set build_number = 0 %}
 {% set python_min = "3.10" %}
 
