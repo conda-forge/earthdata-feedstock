@@ -1,13 +1,15 @@
 About earthaccess-feedstock
 ===========================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/earthdata-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/earthaccess-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/earthaccess/
+Home: https://earthaccess.readthedocs.io/
 
 Package license: MIT
 
 Summary: Client Library for NASA Earthdata APIs
+
+Development: https://github.com/nsidc/earthaccess
 
 Current build status
 ====================
@@ -15,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14302&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/earthdata-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/earthaccess-feedstock?branchName=main">
       </a>
     </td>
   </tr>
