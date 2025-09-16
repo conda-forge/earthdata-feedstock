@@ -147,4 +147,5 @@ Feedstock Maintainers
 * [@jhkennedy](https://github.com/jhkennedy/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
 * [@mfisher87](https://github.com/mfisher87/)
+* [@weiji14](https://github.com/weiji14/)
 
