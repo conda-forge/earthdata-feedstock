@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: earthaccess
-  version: 0.16.0
-  python_min: '3.11'
+  version: "0.17.0"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/${{ name }}/earthaccess-${{ version }}.tar.gz
-  sha256: e19337682c205b807c52edd691b9ca43bfbd6250acb044c30af1e925fa469a1a
+  sha256: a353e40f4c7eb5445f543dcacc81e905ef16799f816a471a68a57f7a407d66ef
 
 build:
   number: 0
@@ -21,6 +21,7 @@ build:
 requirements:
   host:
     - hatchling >=1.25.0
+    - hatch-vcs
     - pip
     - python ${{ python_min }}.*
   run:
