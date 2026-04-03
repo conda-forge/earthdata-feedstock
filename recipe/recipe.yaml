@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: earthaccess
   version: "0.17.0"
-  python_min: '3.11'
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -21,6 +21,7 @@ build:
 requirements:
   host:
     - hatchling >=1.25.0
+    - hatch-vcs
     - pip
     - python ${{ python_min }}.*
   run:
