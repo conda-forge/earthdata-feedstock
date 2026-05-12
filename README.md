@@ -145,6 +145,7 @@ Feedstock Maintainers
 =====================
 
 * [@betolink](https://github.com/betolink/)
+* [@itcarroll](https://github.com/itcarroll/)
 * [@jhkennedy](https://github.com/jhkennedy/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
 * [@mfisher87](https://github.com/mfisher87/)
