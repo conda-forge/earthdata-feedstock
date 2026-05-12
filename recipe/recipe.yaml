@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: earthaccess
   version: "0.18.0"
-  python_min: "3.11"
+  python_min: "3.12"
 
 package:
   name: ${{ name|lower }}
